@@ -17,9 +17,30 @@ body {
 }
 
 #google-logo {
-    width: 150px;
+    width: 120px;
+}
+
+#menu-button {
+    width: 18px;
+    margin-right: 20px;
+}
+
+#sign-in-button {
+    border: 0;
+    border-radius: 3px;
+    padding: 6px 12px 6px 12px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgba(57, 149, 235, 0.952);
 }
 
 .search-box {
     height: 40px;
+    width: 500px;
+    padding-left: 10px;
+}
+
+.mv-right {
+    margin-left: auto;
 }
