@@ -1,0 +1,25 @@
+html,
+body {
+    font-family: 'Arial';
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.item {
+    margin-right: 10px;
+}
+
+#google-logo {
+    width: 150px;
+}
+
+.search-box {
+    height: 40px;
+}
