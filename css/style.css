@@ -3,6 +3,7 @@ body {
     font-family: 'Arial';
 }
 
+p,
 h4 {
     margin: 0;
 }
@@ -66,10 +67,24 @@ header {
 
 .link-text {
     color: green;
+    font-size: 14px;
 }
 
 .link-headline {
     font-weight: normal;  
+}
+
+.date {
+    color: gray;
+}
+
+.description {
+    font-size: 13px;
+    color: #575757;
+}
+
+.result {
+    margin-top: 30px;
 }
 
 .link-bar {
@@ -93,6 +108,7 @@ header {
 .content {
     margin-left: 140px;
     margin-top: 15px;
+    width: 630px;
 }
 
 #result-count {
@@ -126,4 +142,9 @@ header {
     margin-left: 20px;
     color: gray;
     font-size: 14px
+}
+
+.search-results {
+    margin-top: 40px;
+    margin-left: 15px;
 }
