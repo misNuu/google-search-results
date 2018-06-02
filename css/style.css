@@ -3,11 +3,16 @@ body {
     font-family: 'Arial';
 }
 
+header {
+    border-bottom: 1px solid #CFCFCF;
+    background-color: rgb(251, 251, 249);
+}
+
 .top-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 15px;
+    padding-top: 15px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -36,11 +41,36 @@ body {
 }
 
 .search-box {
-    height: 40px;
-    width: 500px;
+    height: 35px;
+    width: 580px;
     padding-left: 10px;
 }
 
 .mv-right {
     margin-left: auto;
+}
+
+.active {
+    color: blue !important;
+    border-bottom: solid 3px blue;
+    font-weight: 600;
+}
+
+.link-bar {
+    margin-left: 140px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+}
+
+.link-bar a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 14px;
+    color: #797979;
+}
+
+.link-bar a:hover {
+    color: black;
 }
