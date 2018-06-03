@@ -148,3 +148,39 @@ header {
     margin-top: 40px;
     margin-left: 15px;
 }
+
+.search-results-bottom {
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+#related-searches {
+    font-weight: normal;
+}
+
+#related-searches-links {
+    margin-top: 15px;
+}
+
+#related-searches-links td {
+    padding: 4px 25px 4px 0px;
+    font-weight: 600;
+}
+
+#change-pages {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#change-pages ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#change-pages li {
+    display: inline;
+    padding-right: 6px;
+}
+
+
