@@ -12,6 +12,10 @@ a {
     text-decoration: none;
 }
 
+.content a:hover {
+    text-decoration: underline;
+}
+
 header {
     border-bottom: 1px solid #DDDDDD;
     background-color: rgb(251, 251, 249);
@@ -71,10 +75,10 @@ header {
 }
 
 .link-headline {
-    font-weight: normal;  
+    font-weight: normal;
 }
 
-.date {
+.gray-text {
     color: gray;
 }
 
@@ -123,7 +127,7 @@ header {
     width: 600px;
     border: 1px solid #DDDDDD;
     border-radius: 2px;
-    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.13);
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.13);
 }
 
 .snippet-box ol {
@@ -183,4 +187,25 @@ header {
     padding-right: 6px;
 }
 
+footer {
+    margin-top: 30px;
+    background-color: rgb(251, 251, 249);
+    font-size: 15px;
+}
 
+footer a {
+    color: #5D5D5D;
+}
+
+footer a:hover {
+    color: black;
+}
+
+.footer-wrapper {
+    border-top: solid 1px #DDDDDD;
+    padding: 15px 10px 15px 140px;
+}
+
+#bot-footer a {
+    padding-right: 20px;
+}
